@@ -11,8 +11,7 @@ module.exports = function (app) {
       name: { type: String, required: true },
       nationality: { type: String, required: true },
       birth: { type: Date, required: true },
-      sexH: { type: Boolean, required: true },
-      sexM: { type: Boolean, required: true },
+      sex: { type: String, required: true },
       resumen: { type: String, required: true },
     },
     {
